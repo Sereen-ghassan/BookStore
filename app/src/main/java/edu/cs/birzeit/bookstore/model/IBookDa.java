@@ -6,4 +6,6 @@ public interface IBookDa {
 
     List<Book> getBooks(String cat);
 
+    String[] getCategories();
+
 }

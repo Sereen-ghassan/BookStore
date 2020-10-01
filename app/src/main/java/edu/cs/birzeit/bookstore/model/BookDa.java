@@ -28,4 +28,11 @@ import java.util.List;
         return data;
     }
 
-}
+     @Override
+     public String[] getCategories() {
+         String[] cats = new String[]{"Java", "C#", "Paython"};
+
+         return cats;
+     }
+
+ }
